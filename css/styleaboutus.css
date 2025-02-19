@@ -1,0 +1,52 @@
+body {
+    background-color:#001F3F;
+    color: white;
+    font-family: 'Sodo Sans', sans-serif
+}
+
+.options {
+  background: #ffffff;
+  width: auto;
+  height: 50px;
+  border-radius: 5px;
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex; /* Agar item dalamnya tersusun horizontal */
+  align-items: center;
+  padding: 0 10px; /* Tambahkan padding agar lebih rapi */
+}
+
+.option {
+  color: #001F3F;
+  text-decoration: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  transition: all 0.3s ease;
+  display: inline-block;
+  
+}
+
+.option:hover {
+  color: #001F3F;
+  transform: scale(1.05);
+}
+  
+  p {
+    font-family: "SoDoSans", sans-serif !important;
+  }
+li {
+    font-family: "SoDoSans", sans-serif !important;
+}
+ul {
+    font-family: "SoDoSans", sans-serif !important;
+}  
+b {
+    font-family: "SoDoSans", sans-serif !important;
+}
+h1 {
+    font-family: "SoDoSans", sans-serif !important;
+    margin-left: 30px;
+}
+img {
+    width: 700px;
+    padding: 20px;
+  }

@@ -1,0 +1,31 @@
+body {
+    background-color: #001F3F;
+    font-family: 'Sodo Sans', sans-serif;
+    color: #ffffff;
+  }
+
+.options {
+    background: #ffffff;
+    width: auto;
+    height: 50px;
+    border-radius: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex; /* Agar item dalamnya tersusun horizontal */
+    align-items: center;
+    padding: 0 10px; /* Tambahkan padding agar lebih rapi */
+  }
+  
+  .option {
+    color: #001F3F;
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+    display: inline-block;
+    
+  }
+  
+  .option:hover {
+    color: #001F3F;
+    transform: scale(1.05);
+  }
